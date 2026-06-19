@@ -1,0 +1,6 @@
+{
+  "name": "Croma Player",
+  "description": "A elegant and powerful offline video player, library organizer, and video editor clone for ColorOS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
