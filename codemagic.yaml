@@ -1,0 +1,36 @@
+workflows:
+  android-build:
+    name: Croma Player Build
+    max_build_duration: 60
+
+    environment:
+      java: 17
+
+      vars:
+        PACKAGE_NAME: "com.croma.player"
+
+    cache:
+      cache_paths:
+        - ~/.gradle/caches
+        - ~/.gradle/wrapper
+
+    scripts:
+      - name: Grant permissions
+        script: chmod +x ./gradlew
+
+      - name: Clean project
+        script: ./gradlew clean
+
+      - name: Build Debug APK
+        script: ./gradlew assembleDebug
+
+    artifacts:
+      - app/build/outputs/apk/debug/*.apk
+
+    publishing:
+      email:
+        recipients:
+          - yourmail@gmail.com
+        notify:
+          success: true
+          failure: true
