@@ -1,21 +1,195 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+Croma Player
 
-# Run and deploy your AI Studio app
+A modern Android media player built with Jetpack Compose, Material 3, Media3, Room Database, and modern Android development practices.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/5b0f6567-3b0d-420c-9b55-fcbb0b6b8f5e
+About Developer
 
-## Run Locally
+Prince AR Abdur Rahman
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+Independent App Developer passionate about building modern Android applications, productivity tools, AI-powered experiences, media players, educational apps, and next-generation digital products.
 
+Contact
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+- WhatsApp: 01707424006
+- WhatsApp: 01796951709
+
+Facebook
+https://www.facebook.com/share/1BNn32qoJo/
+
+Instagram
+https://www.instagram.com/ur___abdur____rahman__2008
+
+---
+
+About Company
+
+NexVora Lab's Ofc
+
+NexVora Lab's Ofc focuses on creating innovative Android applications designed to improve productivity, entertainment, learning, and digital experiences.
+
+Mission
+
+Build fast, beautiful, privacy-friendly, and user-focused applications accessible to everyone.
+
+---
+
+Features
+
+- Modern Material 3 UI
+- Jetpack Compose
+- Media3 Video Playback
+- Fast Performance
+- Local Media Support
+- Modern Android Architecture
+- Room Database Integration
+- Offline Functionality
+- Smooth User Experience
+- Responsive Design
+
+---
+
+Technology Stack
+
+- Kotlin
+- Jetpack Compose
+- Android SDK
+- Media3 ExoPlayer
+- Room Database
+- Retrofit
+- Moshi
+- Coil
+- Coroutines
+- Firebase AI
+- Navigation Compose
+- Material 3
+
+---
+
+Company Products
+
+NexPlay X
+
+Next-generation multimedia experience.
+
+LifeSphere OS
+
+Smart productivity and lifestyle ecosystem.
+
+Smart Day Planner X
+
+Advanced task and schedule management.
+
+Study AI
+
+AI-powered educational assistant.
+
+Lensora Studio
+
+Creative media and content tools.
+
+Offline AI
+
+Privacy-focused offline artificial intelligence.
+
+NexVora Love Space
+
+Relationship and communication platform.
+
+CalcVerse
+
+Modern calculator and productivity suite.
+
+NexVoice OS
+
+Voice-powered intelligent ecosystem.
+
+---
+
+Build Requirements
+
+- Android Studio Latest Stable Version
+- JDK 17 Recommended
+- Gradle 8+
+- Android SDK 36
+- Minimum SDK 24
+
+---
+
+Build Instructions
+
+Clone the repository:
+
+git clone https://github.com/rahman2008-svg/Croma-Player.git
+cd Croma-Player
+
+Build Debug APK:
+
+chmod +x gradlew
+./gradlew assembleDebug
+
+Build Release APK:
+
+./gradlew assembleRelease
+
+---
+
+CI/CD
+
+This project supports automated build and deployment workflows.
+
+GitHub Actions
+
+- Automated Build
+- Testing Workflow
+- Continuous Integration
+
+Codemagic CI/CD
+
+- Automated APK Build
+- Release Workflow
+- Continuous Delivery
+- Android Build Automation
+
+---
+
+Project Goals
+
+- Fast Performance
+- Clean Architecture
+- Modern Android Development
+- Privacy-Friendly Design
+- User-Focused Experience
+- Reliable Build System
+- Scalable Codebase
+
+---
+
+Version Information
+
+Version: 1.0.0
+
+---
+
+Credits
+
+Developed by Prince AR Abdur Rahman
+
+Published by NexVora Lab's Ofc
+
+---
+
+License
+
+Copyright © 2026 NexVora Lab's Ofc.
+
+All Rights Reserved.
+
+Unauthorized copying, modification, distribution, or commercial use of this project without permission is prohibited.
+
+---
+
+NexVora Lab's Ofc
+
+Building the next generation of Android applications, AI experiences, productivity tools, and digital ecosystems.
